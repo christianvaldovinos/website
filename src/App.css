@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    background: white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    background: black;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+#logo{
+    float: left;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: white;
+    width: 100px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    float: right;
+    height: 64px;
+}
+#navButtons {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.buttons {
+    display: inline-block;
+    margin-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    position: relative;
+    color: cornflowerblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.buttons:hover {
+    color: white;
+}
+.buttons::before{
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    width: 0;
+    transition: all ease-in-out 250ms;
+}
+.buttons:hover::before{
+    width: 100%;
+}
