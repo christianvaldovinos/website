@@ -1,0 +1,5 @@
+#home {
+    background: lightslategrey;
+    /*background-origin: content-box;*/
+    text-align: center;
+}
