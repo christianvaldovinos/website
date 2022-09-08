@@ -13,14 +13,15 @@ function Work() {
                 <div className="projectDiv">
                     <div id="title">Weather API</div>
                     <img id="projectPic" src={weatherAppImage} alt="weatherAPIImage" />
-                    <p id="projectDesc">Look up the weather in any US city with a population over 100,000 using
-                        <a href="https://rapidapi.com/wirefreethought/api/geodb-cities/" target="_blank" rel="noreferrer">
+                    <p id="projectDesc">Look up the weather in any US city with a population over 100,000 using the{' '}
+                        <a id="apiLink" href="https://rapidapi.com/wirefreethought/api/geodb-cities/" target="_blank" rel="noreferrer">
                             GeoDB Cities
                         </a>
-                        and
-                        <a href="https://openweathermap.org/api" target="_blank" rel="noreferrer">
+                        {' '}and{' '}
+                        <a id="apiLink" href="https://openweathermap.org/api" target="_blank" rel="noreferrer">
                             OpenWeather
-                        </a> APIs.
+                        </a>
+                        {' '}APIs.
                     </p>
                     <div id="working">
                         <a id="workingLink" href="./weather" target="_blank" rel="noreferrer">Working Link</a>
@@ -32,15 +33,17 @@ function Work() {
                     </div>
                 </div>
                 <div className="projectDiv">
-                    <div id="title">List App</div>
-                    <img id="projectPic" src={listAppImage} alt="listAppImage" />
+                    <div id="title">Note App</div>
+                    <img id="projectPic" src={listAppImage} alt="noteAppImage" />
                     <p id="projectDesc">
-                        List app with authentication that allows you to create notes and share with others.
-                        <p>Design emphasized accessibility, can be navigated entirely through keyboard and/or screen reader.</p>
-                        <p id="credit">Co-created with Chris Couto</p>
+                        Create notes and share with others, includes Google authentication.
+                        <p id="projectDesc">Accessible Design, keyboard and screen reader navigable.</p>
+                        <em>Co-created with Chris Couto</em>
+                        <p id="testAccount">Email for testing: <strong>test@guest.com</strong></p>
+                        <p id="testAccount">Password for testing: <strong>password</strong></p>
                     </p>
                     <div id="working">
-                        <a id="workingLink" href="https://cs124-lab3-fe950--pr18-lab5-dii4vh81.web.app/" target="_blank" rel="noreferrer">
+                        <a id="workingLink" href="https://cs124-lab3-fe950--pr18-lab5-dii4vh81.web.app" target="_blank" rel="noreferrer">
                             Working Link
                         </a>
                     </div>
@@ -55,6 +58,7 @@ function Work() {
                     <img id="projectPic" src={websiteImage} alt="websiteImage" />
                     <p id="projectDesc">
                         Personal website which acts as a live-updated portfolio and hosts my web projects.
+                        <p>Created from scratch using React, Node.js, and CSS.</p>
                     </p>
                     <div id="siteRepo">
                         <a id="githubRepoLink" href="https://github.com/christianvaldovinos/website" target="_blank" rel="noreferrer">

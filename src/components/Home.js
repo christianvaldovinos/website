@@ -6,7 +6,7 @@ function Home() {
         <div id="homeDiv" className="box">
             <div id="homeText">
                 <h1>Hello, my name is <span id="name">Christian</span>.</h1>
-                Welcome to my page!
+                <p id="subHeadingHome">Welcome to my page!</p>
             </div>
         </div>
     );

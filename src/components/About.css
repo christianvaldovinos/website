@@ -1,7 +1,7 @@
 #about {
     text-align: center;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 40% 60%;
     grid-template-rows: auto auto;
 }
 
@@ -16,12 +16,53 @@ h1 {
 
 img {
     grid-row: 2;
+    grid-column: 2;
+}
+
+#bottomLeftBox {
+    grid-row: 2;
     grid-column: 1;
 }
 
-#desc {
+#back {
+    background: lightgray;
+    border: solid black;
+    box-shadow: 10px -2px 20px 2px rgb( 0 0 0 / 30%);
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    /*padding: 30px;*/
+    /*margin: 30px;*/
+    padding: 50px;
+    margin: 50px calc(-50px - 2px);
+}
+
+#back2 {
+    background: lightgray;
+    border: solid black;
+    box-shadow: 10px -2px 20px 2px rgb( 0 0 0 / 30%);
+    /*font-family: Verdana, sans-serif;*/
+    font-size: 20px;
+    /*padding: 30px;*/
+    /*margin: 30px;*/
+    /*padding: 50px;*/
+    /*margin: 0 calc(-50px - 2px);*/
+    margin: 30px 50px 80px 70px;
+}
+
+#bottomRightBox {
     grid-row: 2;
     grid-column: 2;
-    top: 50%;
-    transform: translateY(50%);
+
+}
+
+#skills {
+    font-size: 32px;
+    font-weight: bold;
+    padding: 30px 0 30px 0;
+}
+
+.skillIcons {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
 }

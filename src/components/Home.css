@@ -1,6 +1,10 @@
 #homeDiv {
-    background: lightslategrey;
+    background: #6BA5F2;
     text-align: center;
+}
+
+h1 {
+    margin-bottom: 0;
 }
 
 #homeText {
@@ -12,4 +16,8 @@
     padding: 0;
     color: floralwhite;
     font-family: "Andale Mono"
+}
+
+#subHeadingHome {
+    font-size: 24px;
 }

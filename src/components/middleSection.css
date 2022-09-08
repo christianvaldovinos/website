@@ -4,12 +4,12 @@
 }
 
 #home {
-    background: lightslategrey;
+    background: #6BA5F2;
     height: 100%;
 }
 
 body {
-    background: lightslategrey;
+    background: #6BA5F2;
     overscroll-behavior: none;
     height: 100%;
 }
