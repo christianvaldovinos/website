@@ -8,14 +8,97 @@ h1 {
     font-size: 64px;
 }
 
-#desc {
+#title {
+    grid-row: 1;
+    grid-column: 1 / span 2;
+    vertical-align: top;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 5px;
+    color: black;
 }
 
-#name {
+#projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.projectDiv {
+    display: grid;
+    grid-template-rows: 30px 130px 200px auto;
+    grid-template-columns: 50% 50%;
+    background: ghostwhite;
+    border: solid black;
+    box-shadow: 10px -2px 20px 2px rgb( 0 0 0 / 30%);
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 400px;
 }
 
 .links {
-    line-height: 50px;
-    font-size: 24px;
-    color: white;
+    color: black;
+}
+
+#git {
+    grid-row: 4;
+    grid-column: 2;
+}
+
+.gitLink {
+    text-decoration: underline;
+    color: black;
+    background: white;
+
+}
+
+#projectPic {
+    grid-row: 2;
+    grid-column: 1 / span 2;
+    width: 100%;
+    height: 130px;
+    border-top: solid black;
+    border-bottom: solid black;
+}
+
+#working {
+    grid-row: 4;
+    grid-column: 1;
+    width: 100%;
+}
+
+#workingLink, #githubRepoLink {
+    background: black;
+    color: cornflowerblue;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+#githubRepo {
+    grid-row: 4;
+    grid-column: 2;
+    width: 100%;
+}
+
+#projectDesc {
+    grid-row: 3;
+    grid-column: 1 / span 2;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    font-family: Verdana, sans-serif;
+    color: black;
+}
+
+#credit {
+    color: black;
+    font-family: Verdana, sans-serif;
+    font-weight: 600;
+}
+
+#siteRepo {
+    grid-row: 4;
+    grid-column: 1 / span 2;
 }

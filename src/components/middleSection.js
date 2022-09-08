@@ -8,7 +8,7 @@ import Work from "./Work";
 export default class middleSection extends Component {
     render() {
         return (
-            <div id="wicked">
+            <div id="home">
                 <Home/>
                 <About/>
                 <Work/>

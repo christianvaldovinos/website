@@ -1,5 +1,15 @@
-#home {
+#homeDiv {
     background: lightslategrey;
-    /*background-origin: content-box;*/
     text-align: center;
+}
+
+#homeText {
+    position: relative;
+    top: 200px;
+}
+
+#name {
+    padding: 0;
+    color: floralwhite;
+    font-family: "Andale Mono"
 }

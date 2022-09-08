@@ -1,7 +1,7 @@
 span {
     text-decoration: none;
     padding: 6px 15px;
-    color: cornflowerblue;
+    color: floralwhite;
 }
 
 body{
@@ -14,7 +14,6 @@ body{
     width: 80%;
     margin: 0 auto;
     background: black;
-    /*position: fixed;*/
 }
 
 header{
@@ -68,6 +67,10 @@ nav{
 
 .buttons:hover {
     color: white;
+}
+
+.headerLink {
+    cursor: pointer;
 }
 
 .buttons::before{

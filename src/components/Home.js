@@ -3,9 +3,11 @@ import "./Home.css"
 
 function Home() {
     return (
-        <div id="home" className="box">
-            <h1>Welcome to my page!</h1>
-            This page was created using React and CSS.
+        <div id="homeDiv" className="box">
+            <div id="homeText">
+                <h1>Hello, my name is <span id="name">Christian</span>.</h1>
+                Welcome to my page!
+            </div>
         </div>
     );
 }
