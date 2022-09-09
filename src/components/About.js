@@ -1,13 +1,10 @@
 import React from "react";
 import "./About.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faPython, faReact } from "@fortawesome/free-brands-svg-icons"
 
 function About() {
     return (
         <div id="about" className="box">
             <h1>About Me</h1>
-            {/*<img id="headshot" src={headshot} alt="Logo"/>*/}
             <div id="bottomLeftBox">
                 <div id="back">
                     My name is Christian Valdovinos and I am a senior at Harvey Mudd College where I will be graduating
@@ -19,15 +16,15 @@ function About() {
             <div id="bottomRightBox">
                 <div id="back2">
                     <div id="skills">Programming Languages/Tools</div>
-                    <img class="skillIcons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                    <img class="skillIcons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-                    <img class="skillIcons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
-                    <img class="skillIcons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                    <img class="skillIcons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-                    <img class="skillIcons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"/>
-                    <img class="skillIcons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
-                    <img class="skillIcons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
-                    <img class="skillIcons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" />
+                    <img className="skillIcons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python"/>
+                    <img className="skillIcons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="java"/>
+                    <img className="skillIcons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="cpp"/>
+                    <img className="skillIcons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript"/>
+                    <img className="skillIcons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="react"/>
+                    <img className="skillIcons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt="html"/>
+                    <img className="skillIcons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="css"/>
+                    <img className="skillIcons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="postgreSQL"/>
+                    <img className="skillIcons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" alt="git"/>
                 </div>
             </div>
         </div>

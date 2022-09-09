@@ -14,12 +14,12 @@ export default class header extends Component {
                         <img id="logo" src={logo} alt="Logo"/>
                         <div id="navButtons">
                             {sections.map(section => (
-                                <span className="buttons">
+                                <span className="buttons" key={section}>
                                     <Link className="headerLink" to={section} spy={true} smooth={true}>
                                         {section}
                                     </Link>
-                                </span>
-                            ))}
+                                </span>))
+                            }
                         </div>
                     </nav>
                 </div>
