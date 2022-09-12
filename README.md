@@ -59,7 +59,7 @@ This webpage acts is used to host my projects as well as for any live updates to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/cvaldovinos/cs124-lab2.git
+   git clone git@github.com:christianvaldovinos/website.git
    ```
 2. Install NPM packages
    ```sh
