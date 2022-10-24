@@ -14,9 +14,9 @@ export default class header extends Component {
                         <img id="logo" src={logo} alt="Logo"/>
                         <div id="navButtons">
                             {sections.map(section => (
-                                <span className="buttons" key={section}>
+                                <span className="buttons" key={section} >
                                     <Link className="headerLink" to={section} spy={true} smooth={true}>
-                                        {section}
+                                        <span id={"linkText"}>{section}</span>
                                     </Link>
                                 </span>))
                             }
